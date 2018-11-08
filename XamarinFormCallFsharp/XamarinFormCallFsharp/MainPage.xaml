@@ -5,10 +5,12 @@
              x:Class="XamarinFormCallFsharp.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Enter your name" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Entry x:Name="NameEntry"></Entry>
+        <Button Text="Call Hello()" Clicked="Button_OnClicked"></Button>
+
     </StackLayout>
 
 </ContentPage>
